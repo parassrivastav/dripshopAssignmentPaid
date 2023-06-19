@@ -1,0 +1,23 @@
+{
+  "name": "dripshop",
+  "version": "1.0.0",
+  "description": "Dripshop paid assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parassrivastav/dripshopAssignmentPaid.git"
+  },
+  "keywords": [
+    "assignment"
+  ],
+  "author": "Paras",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/parassrivastav/dripshopAssignmentPaid/issues"
+  },
+  "homepage": "https://github.com/parassrivastav/dripshopAssignmentPaid#readme"
+}
