@@ -1,0 +1,13 @@
+type Query {
+  studentAttendance(studentId: Int!, startDate: String!, endDate: String!): [Attendance!]!
+}
+
+type Mutation {
+  markAttendance(studentId: Int!, date: String!): Attendance!
+}
+
+type Attendance {
+  id: ID!
+  studentId: Int!
+  date: String!
+}
